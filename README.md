@@ -1,4 +1,9 @@
-# m6_evaluacion_s6
+# Curso Desarrollo de Aplicaciones Front-end Trainee 2023
+
+## Modulo 6 - Desarrollo de Interfaces Interactivas con Framework VUE
+Sesión 6
+
+DRILLING: STAR WARS
 
 ## Project setup
 ```
