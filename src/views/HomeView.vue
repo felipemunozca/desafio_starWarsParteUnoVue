@@ -1,18 +1,34 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="container">
+    <img src="@/assets/star-wars-logo.png" alt="Logo">
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
   }
 }
 </script>
+
+<style scoped>
+  body {
+    background-image: url('@/assets/star_wars_universe.jpeg');
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 80vh;
+    margin: 0 auto;
+  }
+
+  img{
+    width: 90%;
+  }
+</style>

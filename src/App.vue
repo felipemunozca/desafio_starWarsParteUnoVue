@@ -1,14 +1,30 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
+    <BarraNavegacion/>
+
     <router-view/>
   </div>
 </template>
 
+<script>
+import BarraNavegacion from '@/components/BarraNavegacion.vue';
+
+export default {
+  components: {
+    BarraNavegacion,
+  }
+}
+</script>
+
 <style>
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url('@/assets/star_wars_universe.jpeg');
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

@@ -1,5 +1,31 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h2>Modulo 6 - Desarrollo de Interfaces Interactivas con Framework VUE</h2>
+    <h3>Sesión 6</h3>
+    <h3>DRILLING: STAR WARS</h3>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'component-name',
+  // props: {},
+  data: function(){
+    return {}
+  },
+  // computed: {},
+  // methods: {}
+  // watch: {},
+  // components: {},
+  // mixins: [],
+  // filters: {},
+  // -- Lifecycle Methods
+  // -- End Lifecycle Methods
+}
+</script>
+
+<style scoped>
+  .about {
+    color: white;
+  }
+</style>
